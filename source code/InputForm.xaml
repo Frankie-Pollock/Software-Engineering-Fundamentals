@@ -1,0 +1,19 @@
+﻿<Window x:Class="BankFilteringSystem.Front_end.InputForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="InputForm" MaxHeight="500" MaxWidth="800" MinHeight="500" MinWidth="800">
+    <Grid>
+        <Label x:Name="lblID" Content="Sender:" HorizontalAlignment="Left" Height="29" Margin="122,5,0,0" VerticalAlignment="Top" Width="290" AutomationProperties.Name="lblID" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblSub" Content="Subject:" HorizontalAlignment="Left" Height="30" Margin="122,67,0,0" VerticalAlignment="Top" Width="308" AutomationProperties.Name="lblSub" FontFamily="Arial Black" FontSize="20"/>
+        <Label Content="Message:" HorizontalAlignment="Left" Height="34" Margin="122,138,0,0" VerticalAlignment="Top" Width="121" FontFamily="Arial Black" FontSize="20"/>
+        <TextBox x:Name="SenderTxtBox" HorizontalAlignment="Left" Height="33" Margin="122,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="570" AutomationProperties.Name="SenderTxtBox" Text="" FontSize="20" FontFamily="Arial" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+        <TextBox x:Name="SubjectTxtBox" HorizontalAlignment="Left" Height="31" Margin="122,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="570" AutomationProperties.Name="SubjectTxtBox" Text="" FontSize="20" FontWeight="Normal" FontFamily="Arial" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+        <TextBox x:Name="MainTxtBox" HorizontalAlignment="Left" Height="187" Margin="122,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="570" AutomationProperties.Name="MainTxtBox" Text="" FontSize="20" FontFamily="Arial" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+        <Button x:Name="btnEnter" Content="Enter Message" HorizontalAlignment="Left" Height="69" Margin="122,380,0,0" VerticalAlignment="Top" Width="216" Click="Button_Enter" FontSize="20" FontFamily="Arial Black" Padding="2,2,2,2" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" Margin="476,380,0,0" VerticalAlignment="Top" Height="69" Width="216" FontSize="20" FontFamily="Arial Black" Click="BtnBack_Click" BorderThickness="2,2,2,2" BorderBrush="Black"/>
+
+    </Grid>
+</Window>
